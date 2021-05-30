@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互联网控制电磁炉</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <style type="text/css">
+        #up {
+            margin-left: 55px;
+            margin-bottom: 3px;
+        }
+        #down {
+            margin-top: 3px;
+            margin-left: 55px;
+        }
+    </style>
+
+
+    <script>
+        $(function(){
+            $("#ON").click(function(){
+
+                alert("电磁炉已经打开了");
+
+                //$.post("/cmd",this.id,function(data,status){});
+                    $.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉已经为您打开了");
+		    });
+
+            $("#OFF").click(function(){
+
+                alert("电磁炉已经关闭了");
+                //$.post("/cmd",this.id,function(data,status){});
+                $.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉已经为您关闭了");
+            });
+
+            
+
+
+                $("#Temperature").click(function(){
+					$.get("/temp",function(data,status){
+					alert("锅底温度: " + data + "℃" );
+					});
+                    $.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉锅底温度为：T℃");
+			});	
+
+			$("#dclfunction").click(function(){
+
+					$.get("/temp",function(data,status){
+					alert("锅底温度: " + data + "℃" );
+					});
+
+                    $.get("/temp",function(data,status){
+                    $.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=");
+                    });
+                    //$.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=");
+			});		
+		
+
+
+                //$.post("/cmd",this.id,function(data,status){});
+                //$.post("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c",{msg : "@image=https://zendee.cn/zendee.png@"})
+                 
+           
+
+        });
+
+    </script>
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<div id="container" class="container">
+   
+    <div>
+        <button id="ON" class="btn btn-lg btn-primary">打开</button>
+    </div>
+    <div>
+        <button id="OFF" class="btn btn-lg btn-primary">关闭</button>
+    </div>
+    <div>
+        <button id="Temperature" class="btn btn-lg btn-primary">锅底温度</button>
+    </div>
+    
+    <div>
+        <button id="dclfunction" class="btn btn-lg btn-primary">功能</button>
+    </div>
+    
+    
+
+</div>
+
+
+<script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+
+
+
+</html>
+

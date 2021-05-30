@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互联网控制电磁炉</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery-1.11.1.js"></script>
+    <script type="text/javascript" src="jquery-validate.js"></script>
+
+
+    <style type="text/css">
+        #up {
+            margin-left: 55px;
+            margin-bottom: 3px;
+        }
+        #down {
+            margin-top: 3px;
+            margin-left: 55px;
+        }
+        #errormessage{
+            color:#ff0000;
+        }
+
+        
+    </style>
+
+<p id="Timer"></p>
+
+
+
+
+
+
+<script>
+
+
+
+//$(document).ready(function(){
+//  $("#denglubutton").click(function(){
+//    $.post("https://www.w3school.com.cn/example/jquery/demo_test_post.asp",
+//    {
+//      name:"Donald Duck",
+//      city:"Duckburg"
+//    },
+//    function(data,status){
+//      alert("数据：" + data + "\n状态：" + status);
+//    });
+//  });
+//});
+
+
+var login = jQuery.noConflict();
+
+login(function(){
+//点击button按钮处理
+$("#denglubutton").click(function(){
+    $.post("login.json",
+        //发送给后端的数据
+        {
+            "name":$("#username").val(),
+            "password":$("#password").val()
+        },
+        //回调函数
+        function(data){
+            var json=data[0];
+            if(json.success == 0){
+                $("#errormessage").text("用户名或密码错误");
+            }
+            else if(json.success== 1){
+                window.location.href="index.html";
+            }
+        }
+    )
+})
+
+});
+
+
+var jq = jQuery.noConflict();
+jq(function() {
+              setInterval("GetTime()", 1000);
+          });
+          //获取时间并设置格式
+          function GetTime() {
+              var mon, day, now, hour, min, ampm, time, str, tz, end, beg, sec;
+              /*
+              mon = new Array("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug",
+                     "Sep", "Oct", "Nov", "Dec");
+             */
+             mon = new Array("一月", "二月", "三月", "四月", "五月", "六月", "七月", "八月",
+                     "九月", "十月", "十一月", "十二月");
+             /*
+             day = new Array("Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat");
+             */
+             day = new Array("周日", "周一", "周二", "周三", "周四", "周五", "周六");
+             now = new Date();
+             hour = now.getHours();
+             min = now.getMinutes();
+             sec = now.getSeconds();
+             if (hour < 10) {
+                 hour = "0" + hour;
+             }
+             if (min < 10) {
+                 min = "0" + min;
+             }
+             if (sec < 10) {
+                 sec = "0" + sec;
+             }
+             $("#Timer").html(
+                 now.getFullYear() + "年" + (now.getMonth() + 1) + "月" + now.getDate() + "日" + "  " + hour + ":" + min + ":" + sec
+                 );
+             //$("#Timer").html(
+             //        day[now.getDay()] + ", " + mon[now.getMonth()] + " "
+             //                + now.getDate() + ", " + now.getFullYear() + " " + hour
+             //                + ":" + min + ":" + sec);
+         }
+
+
+
+
+        $(function(){
+            $("#ON").click(function(){
+
+
+                $.post("/on",function(data,status){
+					alert("打开: " + data );
+					});
+
+                //alert("电磁炉已经打开了");
+
+                //$.post("/cmd",this.id,function(data,status){});
+
+                //$.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉已经为您打开了");
+		});
+
+            $("#OFF").click(function(){
+
+                alert("电磁炉已经关闭了");
+                //$.post("/cmd",this.id,function(data,status){});
+                
+                
+                
+                $.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉已经为您关闭了");
+                });
+
+            
+
+
+                $("#Temperature").click(function(){
+					
+					alert("锅底温度: " + "T" + "℃" );
+					
+                    //$.get("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c?msg=电磁炉锅底温度为：T℃");
+			});	
+
+					
+		
+
+
+                //$.post("/cmd",this.id,function(data,status){});
+                //$.post("https://qmsg.zendee.cn/send/43eb98a1f469bbc87e0bedf42fe9e62c",{msg : "@image=https://zendee.cn/zendee.png@"})
+                 
+           
+
+        });
+
+</script>   
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+
+
+<div id="container" class="container">
+   
+    <div>
+        <button id="ON" class="btn btn-lg btn-primary">打开电磁炉</button>
+    </div>
+    <div>
+        <button id="OFF" class="btn btn-lg btn-primary">关闭电磁炉</button>
+    </div>
+    <div>
+        <button id="Temperature" class="btn btn-lg btn-primary">电磁炉温度</button>
+    </div>
+    
+
+
+
+    <div class="name">
+        <label>用户名:</label>
+        <input type="text" name="username" id="username">
+    </div>
+
+    
+    <div class="password">
+        <label>密  码:</label>
+        <input type="password" name="password" id="password" >
+    </div>
+
+
+
+    <div id="errormessage"></div>
+    <button type="button" id="denglubutton">登陆</button>
+    
+
+    
+    
+    
+
+</div>
+
+
+
+</body>
+
+
+
+
+</html>
+

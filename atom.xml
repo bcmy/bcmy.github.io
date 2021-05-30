@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>冰城梦雨</title>
+  
+  <subtitle>冰城梦雨</subtitle>
+  <link href="https://bcmy.xyz/atom.xml" rel="self"/>
+  
+  <link href="https://bcmy.xyz/"/>
+  <updated>2021-05-25T07:31:43.513Z</updated>
+  <id>https://bcmy.xyz/</id>
+  
+  <author>
+    <name>冰城梦雨</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020电赛省赛A题</title>
+    <link href="https://bcmy.xyz/posts/ds2020.html"/>
+    <id>https://bcmy.xyz/posts/ds2020.html</id>
+    <published>2021-03-15T12:09:55.000Z</published>
+    <updated>2021-05-25T07:31:43.513Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、设计思路与方案&quot;&gt;&lt;a href=&quot;#一、设计思路与方案&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="电赛" scheme="https://bcmy.xyz/categories/%E7%94%B5%E8%B5%9B/"/>
+    
+    
+    <category term="滤波器" scheme="https://bcmy.xyz/tags/%E6%BB%A4%E6%B3%A2%E5%99%A8/"/>
+    
+    <category term="心电" scheme="https://bcmy.xyz/tags/%E5%BF%83%E7%94%B5/"/>
+    
+    <category term="无线运动传感器" scheme="https://bcmy.xyz/tags/%E6%97%A0%E7%BA%BF%E8%BF%90%E5%8A%A8%E4%BC%A0%E6%84%9F%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简易函数信号发生器的设计</title>
+    <link href="https://bcmy.xyz/posts/md1289.html"/>
+    <id>https://bcmy.xyz/posts/md1289.html</id>
+    <published>2021-02-07T09:17:31.000Z</published>
+    <updated>2021-02-07T16:42:16.207Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、设计思路与方案&quot;&gt;&lt;a href=&quot;#一、设计思路与方案&quot; class=&quot;headerlink&quot; title=&quot;一、设计思路与方案&quot;&gt;&lt;/a&gt;&lt;strong&gt;一、设计思路与方案&lt;/strong&gt;&lt;/h3&gt;&lt;h4 id=&quot;1-系统框图及总原理图设计&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="模电" scheme="https://bcmy.xyz/categories/%E6%A8%A1%E7%94%B5/"/>
+    
+    
+    <category term="信号发生器" scheme="https://bcmy.xyz/tags/%E4%BF%A1%E5%8F%B7%E5%8F%91%E7%94%9F%E5%99%A8/"/>
+    
+    <category term="运算电路" scheme="https://bcmy.xyz/tags/%E8%BF%90%E7%AE%97%E7%94%B5%E8%B7%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bcmy.xyz/posts/4a17b156.html"/>
+    <id>https://bcmy.xyz/posts/4a17b156.html</id>
+    <published>2021-01-30T05:14:23.000Z</published>
+    <updated>2021-02-04T13:02:27.937Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="https://bcmy.xyz/categories/HEXO/"/>
+    
+    
+    <category term="HEXO" scheme="https://bcmy.xyz/tags/HEXO/"/>
+    
+    <category term="Markdown" scheme="https://bcmy.xyz/tags/Markdown/"/>
+    
+  </entry>
+  
+</feed>

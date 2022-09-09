@@ -4,6 +4,91 @@
   
     
     <entry>
+      <title>开机自动拨号和断网自动拨号</title>
+      <link href="posts/auto-pppoe.html"/>
+      <url>posts/auto-pppoe.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a><strong>写在前面</strong></h3><p>刚到学校，最近刚给配了工位电脑，电脑配置如下：</p><center>图1 工位电脑配置</center><p>由于是新电脑，首先第一步的是需要连接网络（（（笑，没有网的电脑还能叫电脑吗？？？</p><p>前面配置简单说下，刚进系统的时候，由于实验室的电脑是先进的拨号上网方式，于是在刚进入win11系统的时候，需要网络才能激活下一步，但我是先进的拨号上网方式啊（逃</p><p>提供两个思路：<br>1、手机使用USB线连接电脑，开启USB网络共享（（<br>2、此方法大同小异，仅对我实验室的电脑来说完全ok，在需要连接网络的界面同时按下“<strong>Shift+F10</strong>”，在弹出的命令框输入“<strong>taskmgr</strong>”跳出任务管理器，详细信息中找到“<strong>网络信息流</strong>”，点击“<strong>结束任务</strong>”</p><h4 id="自动拨号"><a href="#自动拨号" class="headerlink" title="自动拨号"></a><strong>自动拨号</strong></h4><p>自动拨号使用的方法就是创建计划任务，在“<strong>此电脑</strong>”右键选择“<strong>管理</strong>”，点击“<strong>系统工具</strong>”-&gt;“<strong>任务计划程序</strong>”-&gt;“<strong>任务计划程序库</strong>”，再右侧选择“<strong>创建基本任务</strong>”。     </p><p><strong>1、创建基本任务：</strong> 名称，描述随便写，下一步<br><strong>2、触发器：</strong> 选择 <strong>计算机启动时</strong>，下一步<br><strong>3、操作：</strong> 选择 <strong>启动程序</strong><br>拨号程序如下： </p><pre class="line-numbers language-none"><code class="language-none">Rasdial 拨号名称 学号 校园网密码<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>然后点击确定，如果弹出窗口，选择【是】，这样rasdial后面三个参数会放到“添加参数”那一栏（不要选【否】，这样会导致设置不成功）</p><p>可以先在cmd或者powershell里面输入上面的拨号代码，测试是否可以拨号成功，不成功请仔细检查拨号名称、学号和校园网密码。    </p><p>懒得写了，具体请看这个教程：<br><a href="https://www.cnblogs.com/xingyu666/p/14282228.html">https://www.cnblogs.com/xingyu666/p/14282228.html</a></p><p>如果是微软账号登录的可能会遇到一些报错，这里说一下，首先输入的密码是微软账号对应的密码，而不是PIN，其次在“<strong>常规</strong>”-&gt;“<strong>安全选项</strong>”-&gt;“<strong>更改用户或组</strong>”-&gt;“<strong>高级</strong>”-&gt;“<strong>立即查找</strong>”，选择“<strong>你的微软账户</strong>”，然后确定</p><p>还有一个问题，忘记是什么问题了，上面方法解决不了可以尝试下面的方法：<br>打开组策略，选项如图：</p><div align="center"><img width="70%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/1289666797/1289666797.github.io/posts/posts/auto-pppoe/1.jpg"></div>将其关闭，如图<div align="center"><img width="70%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/1289666797/1289666797.github.io/posts/posts/auto-pppoe/2.jpg"></div>然后确定，再重新开始上面的方法即可。]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 拨号 </tag>
+            
+            <tag> 网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2021电赛国赛D题</title>
+      <link href="posts/ds2021.html"/>
+      <url>posts/ds2021.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、设计思路与方案"><a href="#一、设计思路与方案" class="headerlink" title="一、设计思路与方案"></a><strong>一、设计思路与方案</strong></h3><p>疯狂挖坑（咕咕咕）：</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电赛 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 物联网 </tag>
+            
+            <tag> 运动检测 </tag>
+            
+            <tag> 树莓派 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于FPGA的YOLO算法对医学图像检测的加速与实现</title>
+      <link href="posts/yolo-fpga.html"/>
+      <url>posts/yolo-fpga.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="一、设计思路与方案"><a href="#一、设计思路与方案" class="headerlink" title="一、设计思路与方案"></a><strong>一、设计思路与方案</strong></h3><p>疯狂挖坑（咕咕咕）：</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> FPGA </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> FPGA </tag>
+            
+            <tag> YOLO </tag>
+            
+            <tag> kv260 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2020电赛省赛A题</title>
       <link href="posts/ds2020.html"/>
       <url>posts/ds2020.html</url>

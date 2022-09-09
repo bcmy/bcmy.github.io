@@ -6,7 +6,7 @@
   <link href="http://1289666797.github.io/atom.xml" rel="self"/>
   
   <link href="http://1289666797.github.io/"/>
-  <updated>2021-05-25T07:31:43.513Z</updated>
+  <updated>2022-09-09T11:37:44.414Z</updated>
   <id>http://1289666797.github.io/</id>
   
   <author>
@@ -15,6 +15,92 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开机自动拨号和断网自动拨号</title>
+    <link href="http://1289666797.github.io/posts/auto-pppoe.html"/>
+    <id>http://1289666797.github.io/posts/auto-pppoe.html</id>
+    <published>2022-09-08T09:17:31.000Z</published>
+    <updated>2022-09-09T11:37:44.414Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;&lt;strong&gt;写在前面&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;刚到学校，最近刚给配了工位电脑，电脑配置如下：&lt;/p&gt;
+&lt;center&gt;图1</summary>
+        
+      
+    
+    
+    
+    <category term="网络" scheme="http://1289666797.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="拨号" scheme="http://1289666797.github.io/tags/%E6%8B%A8%E5%8F%B7/"/>
+    
+    <category term="网络" scheme="http://1289666797.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021电赛国赛D题</title>
+    <link href="http://1289666797.github.io/posts/ds2021.html"/>
+    <id>http://1289666797.github.io/posts/ds2021.html</id>
+    <published>2021-12-15T12:09:55.000Z</published>
+    <updated>2022-09-09T08:23:23.405Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、设计思路与方案&quot;&gt;&lt;a href=&quot;#一、设计思路与方案&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="电赛" scheme="http://1289666797.github.io/categories/%E7%94%B5%E8%B5%9B/"/>
+    
+    
+    <category term="物联网" scheme="http://1289666797.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    
+    <category term="运动检测" scheme="http://1289666797.github.io/tags/%E8%BF%90%E5%8A%A8%E6%A3%80%E6%B5%8B/"/>
+    
+    <category term="树莓派" scheme="http://1289666797.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于FPGA的YOLO算法对医学图像检测的加速与实现</title>
+    <link href="http://1289666797.github.io/posts/yolo-fpga.html"/>
+    <id>http://1289666797.github.io/posts/yolo-fpga.html</id>
+    <published>2021-12-15T12:09:55.000Z</published>
+    <updated>2022-09-09T08:43:24.139Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;一、设计思路与方案&quot;&gt;&lt;a href=&quot;#一、设计思路与方案&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="FPGA" scheme="http://1289666797.github.io/categories/FPGA/"/>
+    
+    
+    <category term="FPGA" scheme="http://1289666797.github.io/tags/FPGA/"/>
+    
+    <category term="YOLO" scheme="http://1289666797.github.io/tags/YOLO/"/>
+    
+    <category term="kv260" scheme="http://1289666797.github.io/tags/kv260/"/>
+    
+  </entry>
   
   <entry>
     <title>2020电赛省赛A题</title>

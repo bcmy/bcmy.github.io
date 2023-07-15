@@ -3,11 +3,11 @@
   <title>冰城梦雨</title>
   
   <subtitle>冰城梦雨</subtitle>
-  <link href="http://1289666797.github.io/atom.xml" rel="self"/>
+  <link href="http://bcmy.github.io/atom.xml" rel="self"/>
   
-  <link href="http://1289666797.github.io/"/>
+  <link href="http://bcmy.github.io/"/>
   <updated>2022-09-19T13:55:18.094Z</updated>
-  <id>http://1289666797.github.io/</id>
+  <id>http://bcmy.github.io/</id>
   
   <author>
     <name>冰城梦雨</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>开机自动拨号和断网自动拨号</title>
-    <link href="http://1289666797.github.io/posts/auto-pppoe.html"/>
-    <id>http://1289666797.github.io/posts/auto-pppoe.html</id>
+    <link href="http://bcmy.github.io/posts/auto-pppoe.html"/>
+    <id>http://bcmy.github.io/posts/auto-pppoe.html</id>
     <published>2022-09-08T09:17:31.000Z</published>
     <updated>2022-09-19T13:55:18.094Z</updated>
     
@@ -35,19 +35,19 @@
     
     
     
-    <category term="网络" scheme="http://1289666797.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="http://bcmy.github.io/categories/%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="拨号" scheme="http://1289666797.github.io/tags/%E6%8B%A8%E5%8F%B7/"/>
+    <category term="拨号" scheme="http://bcmy.github.io/tags/%E6%8B%A8%E5%8F%B7/"/>
     
-    <category term="网络" scheme="http://1289666797.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="http://bcmy.github.io/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>2021电赛国赛D题</title>
-    <link href="http://1289666797.github.io/posts/ds2021.html"/>
-    <id>http://1289666797.github.io/posts/ds2021.html</id>
+    <link href="http://bcmy.github.io/posts/ds2021.html"/>
+    <id>http://bcmy.github.io/posts/ds2021.html</id>
     <published>2021-12-15T12:09:55.000Z</published>
     <updated>2022-09-09T08:23:23.405Z</updated>
     
@@ -62,21 +62,21 @@
     
     
     
-    <category term="电赛" scheme="http://1289666797.github.io/categories/%E7%94%B5%E8%B5%9B/"/>
+    <category term="电赛" scheme="http://bcmy.github.io/categories/%E7%94%B5%E8%B5%9B/"/>
     
     
-    <category term="物联网" scheme="http://1289666797.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
+    <category term="物联网" scheme="http://bcmy.github.io/tags/%E7%89%A9%E8%81%94%E7%BD%91/"/>
     
-    <category term="运动检测" scheme="http://1289666797.github.io/tags/%E8%BF%90%E5%8A%A8%E6%A3%80%E6%B5%8B/"/>
+    <category term="运动检测" scheme="http://bcmy.github.io/tags/%E8%BF%90%E5%8A%A8%E6%A3%80%E6%B5%8B/"/>
     
-    <category term="树莓派" scheme="http://1289666797.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    <category term="树莓派" scheme="http://bcmy.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
   </entry>
   
   <entry>
     <title>基于FPGA的YOLO算法对医学图像检测的加速与实现</title>
-    <link href="http://1289666797.github.io/posts/yolo-fpga.html"/>
-    <id>http://1289666797.github.io/posts/yolo-fpga.html</id>
+    <link href="http://bcmy.github.io/posts/yolo-fpga.html"/>
+    <id>http://bcmy.github.io/posts/yolo-fpga.html</id>
     <published>2021-12-15T12:09:55.000Z</published>
     <updated>2022-09-09T08:43:24.139Z</updated>
     
@@ -91,21 +91,21 @@
     
     
     
-    <category term="FPGA" scheme="http://1289666797.github.io/categories/FPGA/"/>
+    <category term="FPGA" scheme="http://bcmy.github.io/categories/FPGA/"/>
     
     
-    <category term="FPGA" scheme="http://1289666797.github.io/tags/FPGA/"/>
+    <category term="FPGA" scheme="http://bcmy.github.io/tags/FPGA/"/>
     
-    <category term="YOLO" scheme="http://1289666797.github.io/tags/YOLO/"/>
+    <category term="YOLO" scheme="http://bcmy.github.io/tags/YOLO/"/>
     
-    <category term="kv260" scheme="http://1289666797.github.io/tags/kv260/"/>
+    <category term="kv260" scheme="http://bcmy.github.io/tags/kv260/"/>
     
   </entry>
   
   <entry>
     <title>2020电赛省赛A题</title>
-    <link href="http://1289666797.github.io/posts/ds2020.html"/>
-    <id>http://1289666797.github.io/posts/ds2020.html</id>
+    <link href="http://bcmy.github.io/posts/ds2020.html"/>
+    <id>http://bcmy.github.io/posts/ds2020.html</id>
     <published>2021-03-15T12:09:55.000Z</published>
     <updated>2021-05-25T07:31:43.513Z</updated>
     
@@ -120,21 +120,21 @@
     
     
     
-    <category term="电赛" scheme="http://1289666797.github.io/categories/%E7%94%B5%E8%B5%9B/"/>
+    <category term="电赛" scheme="http://bcmy.github.io/categories/%E7%94%B5%E8%B5%9B/"/>
     
     
-    <category term="滤波器" scheme="http://1289666797.github.io/tags/%E6%BB%A4%E6%B3%A2%E5%99%A8/"/>
+    <category term="滤波器" scheme="http://bcmy.github.io/tags/%E6%BB%A4%E6%B3%A2%E5%99%A8/"/>
     
-    <category term="心电" scheme="http://1289666797.github.io/tags/%E5%BF%83%E7%94%B5/"/>
+    <category term="心电" scheme="http://bcmy.github.io/tags/%E5%BF%83%E7%94%B5/"/>
     
-    <category term="无线运动传感器" scheme="http://1289666797.github.io/tags/%E6%97%A0%E7%BA%BF%E8%BF%90%E5%8A%A8%E4%BC%A0%E6%84%9F%E5%99%A8/"/>
+    <category term="无线运动传感器" scheme="http://bcmy.github.io/tags/%E6%97%A0%E7%BA%BF%E8%BF%90%E5%8A%A8%E4%BC%A0%E6%84%9F%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>简易函数信号发生器的设计</title>
-    <link href="http://1289666797.github.io/posts/md1289.html"/>
-    <id>http://1289666797.github.io/posts/md1289.html</id>
+    <link href="http://bcmy.github.io/posts/md1289.html"/>
+    <id>http://bcmy.github.io/posts/md1289.html</id>
     <published>2021-02-07T09:17:31.000Z</published>
     <updated>2022-09-09T12:00:57.260Z</updated>
     
@@ -149,19 +149,19 @@
     
     
     
-    <category term="模电" scheme="http://1289666797.github.io/categories/%E6%A8%A1%E7%94%B5/"/>
+    <category term="模电" scheme="http://bcmy.github.io/categories/%E6%A8%A1%E7%94%B5/"/>
     
     
-    <category term="信号发生器" scheme="http://1289666797.github.io/tags/%E4%BF%A1%E5%8F%B7%E5%8F%91%E7%94%9F%E5%99%A8/"/>
+    <category term="信号发生器" scheme="http://bcmy.github.io/tags/%E4%BF%A1%E5%8F%B7%E5%8F%91%E7%94%9F%E5%99%A8/"/>
     
-    <category term="运算电路" scheme="http://1289666797.github.io/tags/%E8%BF%90%E7%AE%97%E7%94%B5%E8%B7%AF/"/>
+    <category term="运算电路" scheme="http://bcmy.github.io/tags/%E8%BF%90%E7%AE%97%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://1289666797.github.io/posts/4a17b156.html"/>
-    <id>http://1289666797.github.io/posts/4a17b156.html</id>
+    <link href="http://bcmy.github.io/posts/4a17b156.html"/>
+    <id>http://bcmy.github.io/posts/4a17b156.html</id>
     <published>2021-01-30T05:14:23.000Z</published>
     <updated>2021-02-04T13:02:27.937Z</updated>
     
@@ -176,12 +176,12 @@
     
     
     
-    <category term="HEXO" scheme="http://1289666797.github.io/categories/HEXO/"/>
+    <category term="HEXO" scheme="http://bcmy.github.io/categories/HEXO/"/>
     
     
-    <category term="HEXO" scheme="http://1289666797.github.io/tags/HEXO/"/>
+    <category term="HEXO" scheme="http://bcmy.github.io/tags/HEXO/"/>
     
-    <category term="Markdown" scheme="http://1289666797.github.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="http://bcmy.github.io/tags/Markdown/"/>
     
   </entry>
   

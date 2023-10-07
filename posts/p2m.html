@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="简易函数信号发生器的设计, bcmy">
+    <meta name="keywords" content="matlab的p文件研究, bcmy">
     <meta name="description" content="调剂小清华 | 电子信息工程">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>简易函数信号发生器的设计 | 冰城梦雨</title>
+    <title>matlab的p文件研究 | 冰城梦雨</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -329,12 +329,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/1.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">简易函数信号发生器的设计</h1>
+                    <h1 class="description center-align post-title">matlab的p文件研究</h1>
                 </div>
             </div>
         </div>
@@ -450,12 +450,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E4%BF%A1%E5%8F%B7%E5%8F%91%E7%94%9F%E5%99%A8/">
-                                <span class="chip bg-color">信号发生器</span>
+                            <a href="/tags/MATLAB/">
+                                <span class="chip bg-color">MATLAB</span>
                             </a>
                         
-                            <a href="/tags/%E8%BF%90%E7%AE%97%E7%94%B5%E8%B7%AF/">
-                                <span class="chip bg-color">运算电路</span>
+                            <a href="/tags/p%E6%96%87%E4%BB%B6/">
+                                <span class="chip bg-color">p文件</span>
                             </a>
                         
                     </div>
@@ -466,8 +466,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E6%A8%A1%E7%94%B5/" class="post-category">
-                                模电
+                            <a href="/categories/MATLAB/" class="post-category">
+                                MATLAB
                             </a>
                         
                     </div>
@@ -479,7 +479,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-02-07
+                    2023-06-01
                 </div>
                 
 
@@ -493,14 +493,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.1k
+                    94
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    1 分
                 </div>
                 
 
@@ -523,111 +523,18 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="一、设计思路与方案"><a href="#一、设计思路与方案" class="headerlink" title="一、设计思路与方案"></a><strong>一、设计思路与方案</strong></h3><h4 id="1-系统框图及总原理图设计"><a href="#1-系统框图及总原理图设计" class="headerlink" title="1.系统框图及总原理图设计"></a><strong>1.系统框图及总原理图设计</strong></h4><p>信号发生器的设计总体框图如下：</p>
-<div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/0a416d717100ffe22d34f93b6732cf55.png"></div>
-<center>图1 信号发生器的设计总体框图</center>
-整体电路图如下：
-<div align="center"><img src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/15902857b808f02d609063c3083b8d7d.png"></div>
-<center>图2 信号发生器的整体电路图</center>
+                <h3 id="教程"><a href="#教程" class="headerlink" title="教程"></a><strong>教程</strong></h3><p>点击这个网址<br><em><a target="_blank" rel="noopener" href="http://web-service.sippey.org/de_pcode.html">Matlab P-Decode</a></em><br>F12，如下图操作:</p>
+<div align="center"><img width="70%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/matlab_p2m/f12.png">
 
-<h4 id="2-设计方案比较"><a href="#2-设计方案比较" class="headerlink" title="2.设计方案比较"></a><strong>2.设计方案比较</strong></h4><h5 id="2-1信号发生器方案比较"><a href="#2-1信号发生器方案比较" class="headerlink" title="2.1信号发生器方案比较"></a>2.1信号发生器方案比较</h5><p>方案1：<br>　　以运算放大器作核心器件，采用双电源供电方式，通过集成运算放大器与电阻构成滞回比较器，其中滞回比较器有滞回特性，具有抗干扰能。从反相输入端输入的滞回比较器电路，形成方波，方波通过积分器进行积分，形成三角波，然后由二阶有源低通滤波器，形成正弦波。</p>
-<p>方案2：<br>　　以运算放大器作核心器件，按照“正弦波、方波、三角波”的总体设计思路，正弦波使用RC桥式振荡电路产生，接着经过过零比较器，形成方波，通过RC积分电路，形成三角波。</p>
-<p>　　其中方案1要求较高的电源供电条件，转换波形太过复杂，同时信号生成后形成比较大的谐波分量，不容易调整振幅，使得调试工作不易开展。方案2可以形成性能非常优越的正弦波、方波和三角波信号，无论是频率、还是振幅均趋于稳定，具有非常宽的调整范围，容易开展调试。因此，我选择方案2。</p>
-<h6 id="2-2运放的选型的方案比较"><a href="#2-2运放的选型的方案比较" class="headerlink" title="2.2运放的选型的方案比较"></a>2.2运放的选型的方案比较</h6><center>表1 四种不同运放的重要参数对比</center>
-<div align="center"><img width="100%" height="100%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/cd96084d6a57ace28805a98107e592f5.png"></div>
-　　从表1可以清楚的看见，NE5532和TL082的压摆率和增益带宽积明显好于LM324和LM358，且NE5532和TL082都是双运放芯片，可以更换成其他双运放芯片，便于调试和焊接电路板，因此选择NE5532和TL082这两个芯片。
+<pre class="line-numbers language-none"><code class="language-none">&lt;form enctype="multipart/form-data" action="http://web-service.sippey.org/cgi-bin/de_pcode.py" method="post"&gt;
+    &lt;p&gt;PCode File(*.p): &lt;input type="file" name="pfile"&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;input type="submit" value="De-Pcode"&gt;&lt;/p&gt;
+&lt;/form&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<p>将上面的代码复制粘贴进去，如下图所示：</p>
+<div align="center"><img width="70%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/matlab_p2m/edit.png">
 
-<h3 id="二、单元电路设计与参数计算"><a href="#二、单元电路设计与参数计算" class="headerlink" title="二、单元电路设计与参数计算"></a><strong>二、单元电路设计与参数计算</strong></h3><h5 id="1-正弦波生成电路"><a href="#1-正弦波生成电路" class="headerlink" title="1.正弦波生成电路"></a><strong>1.正弦波生成电路</strong></h5><div align="center"><img width="70%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/a721baded5878f96f407e466835b4810.png"></div>
-<center>图3 正弦信号生成电路</center>
-　　如图3所示，R3、R4、C4、C5组成的RC串并网络将输出正反馈至同相输入端，R1、R5则将输出负反馈至运放的反相输入端，电路的行为取决于正负反馈那一边占优势。不难看出，当放大倍数小于3时（即R5/R1=2），负反馈支路占优势，电路不起振；当放大倍数大于3时，正反馈支路占优势，电路开始起振并不是稳定的，振荡会不断增大，最终将导致运放饱和，输出的波形是削波失真的正弦波。也就是说只有当放大倍数恰好为3时，正负反馈处于平衡，振荡电路会持续稳定的工作，为了方便设计，R3、R4一般会选取一样的阻值，用双联电位器，C4、C5会选择一样是容值，用双路换挡开关，则其谐振频率为:
-
-<p>$$<br>f_{0} = \frac{1}{2 \pi \sqrt{R_{1} R_{2} C_{1} C_{2}}}<br>$$</p>
-<p>幅频特性：</p>
-<p>$$<br>\dot{F}=\frac{\dot{U}<em>{0}}{\dot{U}</em>{i}}=\frac{Z_{2}}{Z_{1}+Z_{2}}=\frac{\mathrm{R}<em>{2} / /\left(\frac{1}{j \omega C</em>{2}}\right)}{\left(R_{1}+\frac{1}{j \omega C_{1}}\right)+\mathrm{R}<em>{2} / /\left(\frac{1}{j \omega C</em>{2}}\right)}=\frac{1}{\left(1+\frac{R_{1}}{R_{2}}+\frac{C_{2}}{C_{1}}\right)+j\left(\omega R_{1} C_{2}-\frac{1}{\omega R_{2} C_{1}}\right)}<br>$$</p>
-<p>所以，<br>$$<br>\dot{F}=\frac{1}{\sqrt{\left(1+\frac{R_{1}}{R_{2}}+\frac{C_{2}}{C_{1}}\right)^{2}+\left(\omega R_{1} C_{2}-\frac{1}{\omega R_{2} C_{1}}\right)^{2}}}=\frac{1}{\sqrt{3^{2}-\left(\frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega}\right)^{2}}}<br>$$<br>相频特性：<br>$$<br>\phi_{F}=-\arctan \left(\frac{\omega R_{1} C_{2}-\frac{1}{\omega R_{2} C_{1}}}{1+\frac{R_{1}}{R_{2}}+\frac{C_{2}}{C_{1}}}\right)=-\arctan \left(\frac{\frac{\omega}{\omega_{0}}-\frac{\omega_{0}}{\omega}}{3}\right)<br>$$<br>　　可以看出，电路刚上电时会包含频率丰富的扰动成分，这些扰动频率都将会被放大，随后再缩小，依此循环，只有扰动成分的频率等于f0时，放大的倍数为3，而缩小的倍数也为3，电路将一直不停地振荡下去，也就是说，频率为f0的成分既不会因衰减而最终消失，也不会因一直不停放大而导致运放饱和而失真，相当于此时形成了一个平衡电桥。<br>　　但我们焊接的实际电路这对器件的要求非常高，即R4/R3必须等于2（也就是放大倍数必须为3），只要有一点点的偏差，电路就不可能稳定地振荡下去，因为元件不可能十分精确，再加上受到温度、老化等因素，电路也可会出现停振（放大倍数小于3）或失真（放大倍数大于3）的情况。于是加了两个二极管，这样在未起振时：二极管不导通，增益大于3；在起振后：二极管导通，引入电阻与R1并联，增益小于3。电路稳定。这样就能产生一个比较稳定的正弦波。</p>
-<h4 id="2-方波生成电路"><a href="#2-方波生成电路" class="headerlink" title="2.方波生成电路"></a><strong>2.方波生成电路</strong></h4><div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/b38e0a59748e095669d12af6af52800e.png"></div>
-<center>图4 方波信号生成电路</center>
-　　很明显，这是一个简单的过零比较器，其阈值电压为UT=0V，其中R9为限流电阻，集成运放工作在开环状态，其输出电压为+Uom或-Uom。当前级文氏桥电路产生的正弦信号的大于0V时，经过这个过零比较器输出Uo=-Uom，当前级的输出的正弦信号小于0v时，则经过这个过零比较器的输出Uo=+Uom。其电压传输特性如图5所示。
-<div align="center"><img width="25%" height="25%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/92c3ad4cb98371d77de6fbf3fcb3c538.png"></div>
-<center>图５ 过零比较器的电压传输特性</center>
-
-<h4 id="3-三角波生成电路"><a href="#3-三角波生成电路" class="headerlink" title="3.三角波生成电路"></a><strong>3.三角波生成电路</strong></h4><div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/1e72d8523f43698152927d64e82e7c9b.png"></div>
-<center>图6 三角波信号生成电路</center>
-　　如图6所示一个基本的积分电路，由于集成运放的同相输入端通过R14接地，所以“虚地”
-$$
-U_{N}=U_{P}=0
-$$
-电路中，电容C中的电流等于电阻R13中的电流，即
-$$
-i_{C}=i_{R 13}=\frac{U_{i 2}}{R_{13}}
-$$
-输出电压与电容上电压的关系为：
-$$
-U_{o 3}=-U_{c}
-$$
-而电容上电压等于其电流的积分，故
-$$
-U_{o 3}=-\frac{1}{C} \int i_{C} d t=-\frac{1}{R C} \int U_{i 2} d t
-$$
-求解t1到t2时间段的积分值，有
-$$
-U_{o 3}=-\frac{1}{R C} \int_{t 1}^{t 2} U_{i 2} d t+U_{o 3}\left(t_{1}\right)
-$$
-式中Uo3(t1)为积分起始时刻的输出电压，即积分运算的起始值，积分的终值是t2时刻的输出电压。
-当Ui为常量时，输出电压
-$$
-U_{o 3}=-\frac{1}{R C} U_{i 2}\left(t_{2}-t_{1}\right)+U_{o 3}\left(t_{1}\right)
-$$
-当输入为方波，即可利用积分运算电路实现方波-三角波的波形变换。
-
-<h4 id="4-输出电压调整电路"><a href="#4-输出电压调整电路" class="headerlink" title="4.输出电压调整电路"></a><strong>4.输出电压调整电路</strong></h4><div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/494f634c307c7caf9d23282c5fc2d12e.png"></div>
-<center>图7 输出电压调整电路</center>
-　　这个电路为基本的反相比例运算电路，典型的电压并联负反馈电路。输入电压通过电阻R10作用于集成运放的反相输入端，故输出电压与输入电压反相。同相输入端通过电阻R12接地，R12为补偿电阻，以保证集成运放输入级差分放大电路外接电阻的对称性，其值大概等于R10和R11的并联值。电路通过R11引入负反馈，故
-$$
-U_{N}=U_{P}=0
-$$
-为“虚地”；虚地就是假的地，表明电位为零，但不是真正接地。
-$$
-i_{N}=i_{P}=0
-$$
-节点N的电流方程为
-$$
-i_{R 10}=i_{R 11}=0
-$$
-$$
-\frac{U_{i n}-U_{N}}{R_{10}}=\frac{U_{N}-U_{o u t}}{R_{11}}
-$$
-由于N点为虚地，整理得
-$$
-U_{\text {out }}=-\frac{R_{11}}{R_{10}} U_{\text {in }}
-$$
-可以看出Uout与Uin成比例关系，比例系数为-R11/R10，负号表示Uout与Uin反相。比例系数的数值可以是大于、等于和小于1的任何值。
-
-<h3 id="三、测试的数据与分析"><a href="#三、测试的数据与分析" class="headerlink" title="三、测试的数据与分析"></a><strong>三、测试的数据与分析</strong></h3><h4 id="1-函数信号发生器基本测试"><a href="#1-函数信号发生器基本测试" class="headerlink" title="1.函数信号发生器基本测试"></a><strong>1.函数信号发生器基本测试</strong></h4><center>表2 函数信号发生器基本测试</center>
-<div align="center"><img width="100%" height="100%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/492bde4de54002b339a902b25af2f430.png"></div>
-
-<p>可以看见本作品可以基本完成课设要求的全部基本测试。</p>
-<h4 id="2-信号参数"><a href="#2-信号参数" class="headerlink" title="2.信号参数"></a><strong>2.信号参数</strong></h4><h5 id="2-1方波的信号参数"><a href="#2-1方波的信号参数" class="headerlink" title="2.1方波的信号参数"></a>2.1方波的信号参数</h5><center>表3 方波的信号参数</center>
-<div align="center"><img width="100%" height="100%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/dba60989024242264874f883e2b81544.png"></div>
-
-<p>　　对于方波，由于运放的压摆率不够，于是不能输出到500kHz，但是其最大幅度和最小幅度还是很可以的，其最小幅度为60mVpp左右，可以说近乎为0，最大幅度为22Vpp左右，其频率取决于前级文氏桥电路振荡的频率。</p>
-<h5 id="2-2三角波的信号参数"><a href="#2-2三角波的信号参数" class="headerlink" title="2.2三角波的信号参数"></a>2.2三角波的信号参数</h5><center>表4 三角波的信号参数</center>
-<div align="center"><img width="100%" height="100%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/d0334cbd2dfda4c0a5c733d4b6ffcd90.png"></div>
-
-<p>　　三角波是在方波的基础上用积分电路得出，其最小幅度为80mVpp左右，也可以说近乎为0，最大幅度为21Vpp左右。实际中发现随着频率的增加，其积分出来的三角波幅度减小，其幅度与积分运算电路的电容有关，所以采用五路换挡开关用来切换电容以改变幅度，来匹配不同的频率。</p>
-<h5 id="2-3正弦波的信号参数"><a href="#2-3正弦波的信号参数" class="headerlink" title="2.3正弦波的信号参数"></a>2.3正弦波的信号参数</h5><center>表5 正弦波的信号参数</center>
-<div align="center"><img width="100%" height="100%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/121fba1bbc3c2e863e4b9153b0c41df1.png"></div>
-　　可以看见，最小幅度为90mVpp左右，也可以说近乎为0，但最大幅度却随着频率的升高在不断减小，理论上可以通过减小电容来解决这个问题，但实际中使用发现虽然幅度上去了，但是信号却优点失真，所以还是考虑以不失真为前提，但这个电路的最小幅度还是可以的，都是差不多将近于零。
-
-<h3 id="四、其中遇到的故障现象、原因及修复方法"><a href="#四、其中遇到的故障现象、原因及修复方法" class="headerlink" title="四、其中遇到的故障现象、原因及修复方法"></a><strong>四、其中遇到的故障现象、原因及修复方法</strong></h3><p>1、在将方波变成三角波的时候，用积分器前面没有滤好波，可能将直流分量也积分了，导致积出来的三角波不是对称的，最后在每一级输出后和下一级输入前都加了一个100uF的电解电容才得以解决。<br>2、因为运放的选择问题，在做好滤波的情况下，先用文氏桥电路生成正弦波，因为TL082在实际测试的过程中，在10kHz-20kHz之间存在失真的情况，最后换用NE5532来产生正弦波。<br>3、因为一开始没对电路图整体进行布局，导致双档五路开关焊接了边上，这为后来的焊接布线添加了不少麻烦，最终只能以多处地方飞线来解决这个问题。<br>4、因为仿真中，用积分器将方波变成三角波有出现的漂移的问题，所以实际电路焊接到积分器的时候。难免不拍会继续有这样的问题，只好自行搭建一个积分器模块，来加在原先的电路板上进行调试，后来发现实际电路中并不会出现仿真那样的问题。</p>
-<h3 id="五、总结"><a href="#五、总结" class="headerlink" title="五、总结"></a><strong>五、总结</strong></h3><p>　　通过这次课设，我对于模电中运算放大器的知识有了更加深刻的理解，知道了如何设计波形变换电路，通过调试电路，进一步熟悉了示波器、万用表等实验器材的使用。总的来说，做好一个实验的前提就是要先充分了解它的实验原理，在面对仿真与实际电路的差异的时候，不要慌张，可以搭一个模块进行测试，慢慢试，直到找到合适的阻值和容值。<br>　　当然电路还有一些不足，还有一些有待改进的地方：<br>1、反相比例运算电路可以换成T形网络反相比例运算电路或者电阻分压，这样可以更加方便焊接与调试。<br>2、更换其他压摆率更高的的双运放芯片。<br>3、改用电容三点式、电感三点式、LC振荡式等振荡电路，这些电路的优点就是输出波形好、振荡频率高。<br>4、焊接时候合理布局元器件，若做成PCB则最好要求地线大面积覆铜，以尽可能的减少干扰。</p>
-<h3 id="六、参考文献"><a href="#六、参考文献" class="headerlink" title="六、参考文献"></a><strong>六、参考文献</strong></h3><p>[1]童诗白,华成英.模拟电子技术基础[M].高等教育出版社:北京,2015:277.<br>[2]冯军,谢嘉奎.电子线路非线性部分[M].高等教育出版社:北京,2010:178.<br>[3]NE5532,TL082,LM358,LM324 datasheet [M].US. Texas Instruments</p>
-<h3 id="附录一：作品图片"><a href="#附录一：作品图片" class="headerlink" title="附录一：作品图片"></a><strong>附录一：作品图片</strong></h3><div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/6df8e973d5b5b8e12d1e79e34542ef57.png"></div>
-<center>图8 作品正面</center>
-<div align="center"><img width="50%" height="50%" src="\themes\matery\source\medias\loading.jpg" data-original="https://cdn.jsdelivr.net/gh/bcmy/bcmy.github.io/posts/md1289/aba1847278dfc22c6725e0d191953d64.png"></div>
-<center>图9 作品背面</center>
-
-
+<p>再上传文件解密即可</p>
+</div></div>
                 
             </div>
             <hr/>
@@ -653,7 +560,7 @@ $$
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://bcmy.github.io/posts/md1289.html">http://bcmy.github.io/posts/md1289.html</a>
+                    <a href="http://bcmy.github.io/posts/p2m.html">http://bcmy.github.io/posts/p2m.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -691,12 +598,12 @@ $$
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E4%BF%A1%E5%8F%B7%E5%8F%91%E7%94%9F%E5%99%A8/">
-                                    <span class="chip bg-color">信号发生器</span>
+                                <a href="/tags/MATLAB/">
+                                    <span class="chip bg-color">MATLAB</span>
                                 </a>
                             
-                                <a href="/tags/%E8%BF%90%E7%AE%97%E7%94%B5%E8%B7%AF/">
-                                    <span class="chip bg-color">运算电路</span>
+                                <a href="/tags/p%E6%96%87%E4%BB%B6/">
+                                    <span class="chip bg-color">p文件</span>
                                 </a>
                             
                         </div>
@@ -1307,53 +1214,51 @@ $$
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/posts/ds2020.html">
+                <a href="/posts/p2m.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/12.jpg" class="responsive-img" alt="2020电赛省赛A题">
+                        <img src="https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/1.jpg" class="responsive-img" alt="matlab的p文件研究">
                         
-                        <span class="card-title">2020电赛省赛A题</span>
+                        <span class="card-title">matlab的p文件研究</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            记录电赛知识
+                            MATLAB
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-03-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-06-01
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%94%B5%E8%B5%9B/" class="post-category">
-                                    电赛
+                            <a href="/categories/MATLAB/" class="post-category">
+                                    MATLAB
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E6%BB%A4%E6%B3%A2%E5%99%A8/">
-                        <span class="chip bg-color">滤波器</span>
+                    <a href="/tags/MATLAB/">
+                        <span class="chip bg-color">MATLAB</span>
                     </a>
                     
-                    <a href="/tags/%E5%BF%83%E7%94%B5/">
-                        <span class="chip bg-color">心电</span>
-                    </a>
-                    
-                    <a href="/tags/%E6%97%A0%E7%BA%BF%E8%BF%90%E5%8A%A8%E4%BC%A0%E6%84%9F%E5%99%A8/">
-                        <span class="chip bg-color">无线运动传感器</span>
+                    <a href="/tags/p%E6%96%87%E4%BB%B6/">
+                        <span class="chip bg-color">p文件</span>
                     </a>
                     
                 </div>
@@ -1367,30 +1272,30 @@ $$
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/4a17b156.html">
+                <a href="/posts/auto-pppoe.html">
                     <div class="card-image">
                         
-                        <img src="https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/9.jpg" class="responsive-img" alt="Hello World">
+                        <img src="https://cdn.jsdelivr.net/gh/1289666797/bcmy-imgs/images/45.jpg" class="responsive-img" alt="开机自动拨号和断网自动拨号">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">开机自动拨号和断网自动拨号</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            How to use HEXO
+                            学习一些网络知识
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-30
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-08
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/HEXO/" class="post-category">
-                                    HEXO
+                            <a href="/categories/%E7%BD%91%E7%BB%9C/" class="post-category">
+                                    网络
                                 </a>
                             
                             
@@ -1400,12 +1305,12 @@ $$
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/HEXO/">
-                        <span class="chip bg-color">HEXO</span>
+                    <a href="/tags/%E6%8B%A8%E5%8F%B7/">
+                        <span class="chip bg-color">拨号</span>
                     </a>
                     
-                    <a href="/tags/Markdown/">
-                        <span class="chip bg-color">Markdown</span>
+                    <a href="/tags/%E7%BD%91%E7%BB%9C/">
+                        <span class="chip bg-color">网络</span>
                     </a>
                     
                 </div>
